@@ -82,3 +82,28 @@ h1{
     font-size: 80px;
     color: #3a2f28;
 }
+
+@media (max-width: 430px) {
+    
+    .box{
+    height: 80px;
+    width: 80px;
+    font-size: 40px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    .winner{
+    height: 160px;
+    width: 210px;
+     /* background-color: #A98467; */
+     position: fixed;
+     z-index: 2;
+    top: 35%;
+    left: 22%;
+    }
+    .container{
+width: 290px;
+height: 290px;
+    }
+}
